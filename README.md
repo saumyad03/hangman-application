@@ -1,2 +1,3 @@
 # hangman-application
- 
+## Description
+This simple Python progarm allows users to play the popular word game Hangman. Users have 6 guesses to solve the word, randomly selected from a file full of words. An incorrect guess decrements the remaining guesses while a correct guess does not. The program automatically handles input validation, ensuring the users don't type in anything other than valid characters. The program provides a simple yet functional visual that shows the letters yet to be guessed (as underscores or blanks) and the letters that have already been guessed. It also outputs messages to inform the user on remaining guesses and whether the user wins or loses, depict the aforementioned visual, and inform the user about invalid data being inputted.
